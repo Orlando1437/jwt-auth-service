@@ -66,11 +66,11 @@ jwt-auth-service/
 
 ### Swagger UI
 
-![Swagger UI](./docs/swagger-ui.png)
+![Swagger UI](./app/docs/swagger-ui.png)
 
 ### JWT Authentication
 
-![JWT Auth](./docs/jwt-auth.png)
+![JWT Auth](./app/docs/jwt-auth.png)
 
 ## Instalación
 
