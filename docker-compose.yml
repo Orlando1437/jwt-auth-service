@@ -1,0 +1,14 @@
+version: '3.9'
+
+services:
+
+  api:
+    build: .
+    container_name: jwt_auth_api
+    restart: on-failure
+    env_file:
+      - .env
+    ports:
+      - "8001:8000"
+    volumes:
+      - .:/app
